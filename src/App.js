@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./route/Home";
 import Detail from "./route/detail";
-function Movie() {
+function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/movie/:id" element={<Detail />}></Route>
         <Route path="/" element={<Home />}></Route>
@@ -11,4 +11,4 @@ function Movie() {
     </Router>
   );
 }
-export default Movie;
+export default App;
