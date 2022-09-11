@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  color: bisque;
+  background-color: grey;
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.title {
+  font-size: 30px;
+  text-decoration: none;
+}
+.div {
+  height: 30px;
+  background-color: transparent;
+  border-radius: 10%;
+  border: 1px solid bisque;
+  width: 80px;
+  display: flex;
+  font-size: larger;
+  align-items: center;
+}
+.like {
+  height: 25px;
+  padding-right: 20px;
+}
+
+.count {
+  padding-bottom: 19px;
+}
+.button {
+  margin-top: 15px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 10%;
+  border: 1px solid bisque;
+  width: 100px;
+  font-size: large;
+  align-items: center;
+  margin-left: 10px;
+}
+.poster {
+  padding: 50px 0px;
+  max-width: 250px;
+  width: 100%;
+  margin-left: 48%;
+}
+.moive {
+  border-radius: 15%;
+}
+.description {
+  width: 400px;
+  height: 100%;
+  padding-left: 100px;
+}
+a {
+  text-decoration: none;
+}
